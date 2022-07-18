@@ -1,6 +1,9 @@
-def favorite_city(name):
-    print("one of my favorite cities is ", name)
+#print("What is my favorite food: ")
+myFavoritefood = "pizza"
+answer = input("What is my favorite food: ")
+if answer == myFavoritefood:
+    print("Yep! So amazing!")
+else:
+    print("Yuck! That's not it!")
 
-favorite_city("Giza")
-favorite_city("Tanta")
-favorite_city("Cairo")
+print("Thanks for playing!")
